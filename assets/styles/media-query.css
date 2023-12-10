@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px){
+   .contenier{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.158);
+    border-radius: 25px;
+  }
+  
+  .template{
+    width: 30vw;
+    height: 60vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .template-results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 25px;
+  }
+  
+}
