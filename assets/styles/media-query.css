@@ -1,10 +1,53 @@
-@media screen and (min-width: 768px){
-   .contenier{
+@media screen and (min-width: 767px) and (max-width: 992px){
+  .contenier{
+    height: 40%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: center;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.158);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.205);
+    border-radius: 25px;
+}
+
+.template{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .template-results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 25px;
+    gap: 15px;
+}
+}
+
+#title{
+  width: 80%;
+  padding: 10px 20px 0px 0px;  
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+   .contenier{
+    height: 60%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.205);
     border-radius: 25px;
   }
   
@@ -15,8 +58,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     
   }
+
+  .results{
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  padding: 25px 35px;
+  border-radius: 50%;
+}
 
   .template-results{
     display: flex;
