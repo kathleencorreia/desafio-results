@@ -1,6 +1,6 @@
 @media screen and (min-width: 767px) and (max-width: 992px){
   .contenier{
-    height: 40%;
+    height: 50%;
     width: 60%;
     display: flex;
     flex-direction: row;
@@ -12,7 +12,7 @@
 
 .template{
     width: 30vw;
-    height: 40vh;
+    height: 50vh;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -25,23 +25,40 @@
     justify-content: center;
     align-items: center;
     width: 30vw;
-    height: 40vh;
+    height: 50vh;
     border-radius: 25px;
     gap: 15px;
-}
 }
 
 #title{
   width: 80%;
   padding: 10px 20px 0px 0px;  
 }
+article .reaction{
+  padding: 10px;
+}
 
+article .memory{
+  padding: 10px;
+}
 
+article .verbal{
+  padding: 10px;
+}
 
+article .visual{
+  padding: 10px;
+}
+input[type=button]{
+  width: 80%;
+  padding: 10px;
+  
+}
+}
 
 @media screen and (min-width: 992px) {
    .contenier{
-    height: 60%;
+    height: 70%;
     width: 60%;
     display: flex;
     flex-direction: row;
@@ -53,7 +70,7 @@
   
   .template{
     width: 30vw;
-    height: 60vh;
+    height: 70vh;
     border-radius: 25px;
     display: flex;
     justify-content: center;

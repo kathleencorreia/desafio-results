@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'HankenGrotesk' ;
+  box-sizing: border-box;
 }
 @font-face {
   font-family: 'HankenGrotesk' ;
@@ -26,8 +27,9 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 40%;
+  height: 38%;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   gap: 10px;
   border-radius: 0px 0px 50px 50px;
@@ -73,7 +75,7 @@ h2{
   align-items: center;
   background-color: white;
   width: 100%;
-  height: 45%; 
+  height: 65%; 
   gap: 15px;
  
 }
@@ -130,7 +132,7 @@ article .verbal{
   flex-direction: row;
   background-color: hsl(166, 100%, 37%, 0.1);
   width: 80%;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   justify-content: space-between;
 
@@ -175,7 +177,7 @@ article .visual{
 
 input[type=button]{
   background-color: hsl(224, 30%, 27%) ;
-  width: 90%;
+  width: 80%;
   padding: 15px;
   border-radius: 50px;
   color: white;
